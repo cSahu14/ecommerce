@@ -1,0 +1,26 @@
+.productContainer {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.getBtn {
+    background-color: #4CAF50;
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productCardStyle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}

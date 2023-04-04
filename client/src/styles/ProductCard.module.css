@@ -1,0 +1,47 @@
+.productCardContainer {
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.addBtn {
+    background-color: #4CAF50;
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.outOfStock {
+    background-color: #FF0000;
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.name {
+    margin: 0px;
+    padding: 0px;
+}
+.price {
+    margin: 0px;
+    padding: 0px;
+}
+.quantity {
+    margin: 0px;
+    padding: 0px;
+}
